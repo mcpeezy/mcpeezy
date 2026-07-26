@@ -44,6 +44,11 @@ I build production AI agents, workflow automation, and web applications that rep
 
 Reliable systems over AI theater. Clear business outcomes, strong guardrails, and clean handoffs.
 
+##Featuring
+
+[![HypeBench](https://hypebench.buzz/badge/kimi-k3.svg)](https://hypebench.buzz/models/kimi-k3/)
+
+
 ## Connect
 
 [![Website](https://img.shields.io/badge/-Epiphany_Dynamics-111111?style=flat-square&logo=google-chrome&logoColor=white)](https://epiphanydynamics.ai)
