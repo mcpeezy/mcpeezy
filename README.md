@@ -1,51 +1,34 @@
-# Hey, I'm Patrick 👋
+# Patrick Gibbs
 
-**Founder of [Epiphany Dynamics](https://epiphanydynamics.ai)** — I build web applications and automation systems that solve real business problems. From full website builds to workflow automation, I help businesses stop losing time and money to manual work.
+Founder of [Epiphany Dynamics](https://epiphanydynamics.ai).
 
-⭐ **5-star rated on Upwork** — *"exceeded my expectations — the design is elegant, the layout is clean and easy to navigate. Patrick's dedication to quality and customer satisfaction is clear in every part of his work."*
+I build production AI systems, workflow automation, and web applications that replace manual work and create measurable business outcomes.
 
-## Featured Projects
+[Visit Epiphany Dynamics](https://epiphanydynamics.ai) | [Book an AI audit](https://book.epiphanydynamics.ai)
 
-### 🌐 Web Applications
+## What I build
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [AI Automation Calculator](https://github.com/patrickg21212/aiforbizcalculator) | Free business assessment tool that calculates potential ROI from AI automation | Astro, React, Tailwind |
-| [AI Learning Platform](https://github.com/patrickg21212/epiphany-learn) | Education platform with 30-minute gamified AI learning modules | React, TypeScript |
-| [AI Readiness Quiz](https://github.com/patrickg21212/ai-quiz-app) | Interactive assessment with multi-track scoring, animations, and shareable results | React, TypeScript, Supabase |
-| [Field Service Stack](https://github.com/patrickg21212/fieldservicestack) | Content hub — software reviews and guides for field service professionals | Web content platform |
+- AI agents for voice, chat, document processing, and internal operations
+- Workflow automation that connects CRMs, databases, calendars, and business tools
+- Production web applications that replace spreadsheets, paper, and repetitive admin work
 
-### ⚙️ Business Automation
+## Selected public work
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [BLD Prep Sheet App](https://github.com/patrickg21212/bld-prep-app) | CIPP liner prep sheet automation for a sewer rehab company — replaced manual spreadsheets | Astro, React, TypeScript, IndexedDB |
-| [Timesheet Dashboard](https://github.com/patrickg21212/Loxy-Timesheet-Dashboard) | Employee time tracking system for a home care company — replaced paper timesheets | Next.js 14, TypeScript, Supabase |
-| [Claude Skills Portfolio](https://github.com/patrickg21212/claude-skills-portfolio) | Production AI agent skills built for real business workflows | Claude Code, TypeScript |
+| Project | What it demonstrates |
+| --- | --- |
+| [AI Automation Calculator](https://github.com/epiphany-dynamics/aiforbizcalculator) | An interactive business assessment that estimates where automation can create the most value |
+| [Claude Skills Portfolio](https://github.com/epiphany-dynamics/claude-skills-portfolio) | Production agent skills and plugins built for real business workflows |
+| [Clawd Discord Relay](https://github.com/epiphany-dynamics/clawd-discord-relay) | A persistent-memory Discord bridge for CLI-based AI agents |
+| [Supabase Ledger Hardening Kit](https://github.com/epiphany-dynamics/supabase-ledger-hardening-kit) | Concurrency-safe ledger patterns, RLS auditing, and load tests for money and credit workflows |
+| [Call Speaker Diarization Kit](https://github.com/epiphany-dynamics/call-speaker-diarization-kit) | Voiceprint enrollment, speaker identification, confidence thresholds, and tagged transcripts |
+| [Granite Organizer](https://github.com/epiphany-dynamics/granite-organizer) | A desktop tool that turns inspection files and prep sheets into an organized field-workflow system |
 
-### Additional Client Work (private repos)
+## Focus
 
-- **Bailey & Friends LLC** — Full website design and build (5-star Upwork review)
-- **Mortgage Company** — CRM automation + mini RAG system
-- **Home Services Business** — AI voice agent for phone handling
-- **Patreon Creator** — AI chatbot for community engagement
+`AI agents` · `Business automation` · `Voice AI` · `Astro` · `React` · `TypeScript` · `Python` · `Supabase` · `n8n`
 
-## Tech Stack
+I work primarily with service businesses that need reliable systems, clean handoffs, and fewer manual bottlenecks.
 
-`React` · `Next.js` · `Astro` · `TypeScript` · `Tailwind CSS` · `Supabase` · `Python` · `n8n` · `vAPI` · `Node.js`
+## Work with me
 
-## What I Build
-
-- **Websites & Web Apps** — Multi-section content sites, dashboards, interactive tools, landing pages
-- **Workflow Automation** — n8n, Make.com, and custom API integrations that eliminate repetitive tasks
-- **AI Solutions** — Voice agents, chatbots, assessment tools, and AI-powered business workflows
-- **Business Tools** — Custom apps that replace spreadsheets, paper processes, and manual workflows
-
-## Industries I Work With
-
-Home services · Healthcare & wellness · Dental · Field services · Professional services · E-commerce · Education
-
-## Let's Talk
-
-📧 patrick@epiphanydynamics.ai
-🌐 [epiphanydynamics.ai](https://epiphanydynamics.ai)
+Have a process that is slow, repetitive, or held together by spreadsheets? [Book a free AI operations audit](https://book.epiphanydynamics.ai) or email [patrick@epiphanydynamics.ai](mailto:patrick@epiphanydynamics.ai).
