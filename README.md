@@ -1,34 +1,53 @@
-# Patrick Gibbs
+# Hi, I'm Patrick 👋
 
-Founder of [Epiphany Dynamics](https://epiphanydynamics.ai).
+📍 **Nashville** | 🤖 **AI systems builder** | 🚀 **Founder of [Epiphany Dynamics](https://epiphanydynamics.ai)**
 
-I build production AI systems, workflow automation, and web applications that replace manual work and create measurable business outcomes.
+I build production AI agents, workflow automation, and web applications that replace manual work for service businesses.
 
-[Visit Epiphany Dynamics](https://epiphanydynamics.ai) | [Book an AI audit](https://book.epiphanydynamics.ai)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Astro](https://img.shields.io/badge/-Astro-BC52EE?style=flat-square&logo=astro&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=111111)
+![Supabase](https://img.shields.io/badge/-Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![n8n](https://img.shields.io/badge/-n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+![AI Agents](https://img.shields.io/badge/-AI_Agents-121212?style=flat-square&logo=openai&logoColor=white)
 
-## What I build
+## Start Here
 
-- AI agents for voice, chat, document processing, and internal operations
-- Workflow automation that connects CRMs, databases, calendars, and business tools
-- Production web applications that replace spreadsheets, paper, and repetitive admin work
+- 🧭 **[Epiphany Dynamics](https://epiphanydynamics.ai)** - AI automation and production software for service businesses
+- 🧮 **[AI Automation Calculator](https://github.com/epiphany-dynamics/aiforbizcalculator)** - find the highest-value automation opportunities in a business
+- 🛠️ **[Claude Skills Portfolio](https://github.com/epiphany-dynamics/claude-skills-portfolio)** - production agent skills built for real workflows
+- 📅 **[Book an AI Operations Audit](https://book.epiphanydynamics.ai)** - map the manual work worth eliminating first
 
-## Selected public work
+## Current Projects
 
-| Project | What it demonstrates |
-| --- | --- |
-| [AI Automation Calculator](https://github.com/epiphany-dynamics/aiforbizcalculator) | An interactive business assessment that estimates where automation can create the most value |
-| [Claude Skills Portfolio](https://github.com/epiphany-dynamics/claude-skills-portfolio) | Production agent skills and plugins built for real business workflows |
-| [Clawd Discord Relay](https://github.com/epiphany-dynamics/clawd-discord-relay) | A persistent-memory Discord bridge for CLI-based AI agents |
-| [Supabase Ledger Hardening Kit](https://github.com/epiphany-dynamics/supabase-ledger-hardening-kit) | Concurrency-safe ledger patterns, RLS auditing, and load tests for money and credit workflows |
-| [Call Speaker Diarization Kit](https://github.com/epiphany-dynamics/call-speaker-diarization-kit) | Voiceprint enrollment, speaker identification, confidence thresholds, and tagged transcripts |
-| [Granite Organizer](https://github.com/epiphany-dynamics/granite-organizer) | A desktop tool that turns inspection files and prep sheets into an organized field-workflow system |
+### Agent Systems
 
-## Focus
+- 🧠 **[Clawd Discord Relay](https://github.com/epiphany-dynamics/clawd-discord-relay)** - persistent-memory routing between Discord and CLI-based AI agents
+- 🎙️ **[Call Speaker Diarization Kit](https://github.com/epiphany-dynamics/call-speaker-diarization-kit)** - voiceprint enrollment, speaker identification, and tagged transcripts
+- 🧰 **[Claude Skills Portfolio](https://github.com/epiphany-dynamics/claude-skills-portfolio)** - reusable agent skills and plugins for business workflows
 
-`AI agents` · `Business automation` · `Voice AI` · `Astro` · `React` · `TypeScript` · `Python` · `Supabase` · `n8n`
+### Business Systems and Tooling
 
-I work primarily with service businesses that need reliable systems, clean handoffs, and fewer manual bottlenecks.
+- 🔐 **[Supabase Ledger Hardening Kit](https://github.com/epiphany-dynamics/supabase-ledger-hardening-kit)** - concurrency-safe ledgers, RLS audits, and load tests for money and credit workflows
+- 🗂️ **[Granite Organizer](https://github.com/epiphany-dynamics/granite-organizer)** - turns inspection files and prep sheets into an organized field-workflow system
+- 🧮 **[AI Automation Calculator](https://github.com/epiphany-dynamics/aiforbizcalculator)** - an interactive assessment for estimating automation value
 
-## Work with me
+## What I'm Doing
 
-Have a process that is slow, repetitive, or held together by spreadsheets? [Book a free AI operations audit](https://book.epiphanydynamics.ai) or email [patrick@epiphanydynamics.ai](mailto:patrick@epiphanydynamics.ai).
+- Building AI agents that handle voice, chat, documents, and internal operations
+- Connecting CRMs, databases, calendars, and business tools into reliable workflows
+- Turning spreadsheet and paper processes into production web applications
+- Sharing reusable infrastructure from real-world automation work
+
+## How I Work
+
+Reliable systems over AI theater. Clear business outcomes, strong guardrails, and clean handoffs.
+
+## Connect
+
+[![Website](https://img.shields.io/badge/-Epiphany_Dynamics-111111?style=flat-square&logo=google-chrome&logoColor=white)](https://epiphanydynamics.ai)
+[![Book an Audit](https://img.shields.io/badge/-Book_an_AI_Audit-2563EB?style=flat-square&logo=googlecalendar&logoColor=white)](https://book.epiphanydynamics.ai)
+[![LinkedIn](https://img.shields.io/badge/-Patrick_Gibbs-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/patrick-gibbs-839b7b237)
+[![X](https://img.shields.io/badge/-@EpiphanyDynamic-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/EpiphanyDynamic)
+[![Email](https://img.shields.io/badge/-patrick@epiphanydynamics.ai-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:patrick@epiphanydynamics.ai)
