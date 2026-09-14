@@ -31,6 +31,7 @@ My focus is the complete workflow: the interface people use, the data it depends
 <p>Early public macOS client for Prime Agent: split-pane chats, live worker attachment, project context, and an agents dashboard. Close the interface without terminating background agents; reopen and reattach.</p>
 <p><code>JavaScript</code> <code>Electron</code> <code>RPC</code></p>
 <p><sub>Engineering focus: process lifecycle, sandboxed rendering, narrow IPC, and smoke-test tooling.</sub></p>
+<p><a href="https://github.com/epiphany-dynamics/prime-desktop/blob/main/DAEMON-ATTACHMENT.md">Architecture</a> · <a href="https://github.com/epiphany-dynamics/prime-desktop/releases">Releases</a> · <a href="https://github.com/epiphany-dynamics/prime-desktop/blob/main/docs/KNOWN_LIMITS.md">Known limits</a></p>
 </td>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/epiphany-dynamics/resilient-data-source-kit">Resilient Data Source Kit</a></h3>
@@ -38,6 +39,7 @@ My focus is the complete workflow: the interface people use, the data it depends
 <p>Reference implementations for backoff with jitter, circuit breaking, block detection, and multi-signal entity matching. Confidence bands preserve uncertainty instead of turning missing data into false conclusions.</p>
 <p><code>TypeScript</code> <code>Node.js</code> <code>Testing</code></p>
 <p><sub>Engineering focus: injectable mock transport, deterministic tests, graceful failure, and human-review thresholds.</sub></p>
+<p><a href="https://github.com/epiphany-dynamics/resilient-data-source-kit#tests">Tests</a> · <a href="https://github.com/epiphany-dynamics/resilient-data-source-kit#known-limits">Known limits</a></p>
 </td>
 </tr>
 <tr>
@@ -55,6 +57,7 @@ My focus is the complete workflow: the interface people use, the data it depends
 <p>Naive versus row-locked balance operations, row-level-security probes, and concurrency/load-test harnesses. A focused reference for investigating double-spends and access-control gaps.</p>
 <p><code>PostgreSQL</code> <code>Supabase</code> <code>Node.js</code> <code>k6</code></p>
 <p><sub>Engineering focus: data invariants and overlapping writes. Database-backed verification requires a configured test environment.</sub></p>
+<p><a href="https://github.com/epiphany-dynamics/supabase-ledger-hardening-kit#quick-start">Run the examples</a> · <a href="https://github.com/epiphany-dynamics/supabase-ledger-hardening-kit#known-limits">Known limits</a></p>
 </td>
 </tr>
 <tr>
@@ -64,6 +67,7 @@ My focus is the complete workflow: the interface people use, the data it depends
 <p>A webhook-based reference implementation for validating form payloads, sending through a transactional provider, and tracking delivery events. Includes normalization, sanitization, and failure-path tests.</p>
 <p><code>Node.js</code> <code>Webhooks</code> <code>Resend</code></p>
 <p><sub>Engineering focus: observable delivery, explicit errors, and an audit trail beyond the platform's success message.</sub></p>
+<p><a href="https://github.com/epiphany-dynamics/nocode-email-fallback-kit/blob/main/DIAGNOSIS-CHECKLIST.md">Diagnosis checklist</a> · <a href="https://github.com/epiphany-dynamics/nocode-email-fallback-kit#tests">Tests</a></p>
 </td>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/epiphany-dynamics/clawd-discord-relay">Claude Discord Relay</a></h3>
@@ -71,6 +75,7 @@ My focus is the complete workflow: the interface people use, the data it depends
 <p>A Discord-to-Claude Code relay with per-channel routing, persistent sessions, semantic memory, and direct, dispatched, or broadcast modes. Memory retrieval supports a Mem0-to-Qdrant fallback.</p>
 <p><code>TypeScript</code> <code>Bun</code> <code>discord.js</code> <code>Qdrant</code></p>
 <p><sub>Engineering focus: agent orchestration, session continuity, memory retrieval, and operator stop controls.</sub></p>
+<p><a href="https://github.com/epiphany-dynamics/clawd-discord-relay#architecture">Architecture</a> · <a href="https://github.com/epiphany-dynamics/clawd-discord-relay#setup">Setup</a></p>
 </td>
 </tr>
 </table>
@@ -86,6 +91,7 @@ My focus is the complete workflow: the interface people use, the data it depends
 | [Claude Skills Portfolio](https://github.com/epiphany-dynamics/claude-skills-portfolio) | Business-workflow skills for Claude Code. |
 | [What's Wrong With My Site](https://whatswrongwithmy.site) | A plain-English website diagnostic product. |
 | [HypeBench](https://hypebench.buzz) | An AI-model attention tracker across social and developer platforms. |
+| [Field Service Stack](https://github.com/epiphany-dynamics/fieldservicestack) | An Astro publishing system for contractor software reviews and guides, with schema-validated content, generated search, sitemaps, and AI-readable discovery files. |
 
 [Browse the Epiphany Dynamics organization →](https://github.com/epiphany-dynamics)
 
