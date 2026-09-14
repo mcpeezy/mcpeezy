@@ -19,7 +19,7 @@ I'm **Patrick Gibbs**, founder of **[Epiphany Dynamics](https://epiphanydynamics
 
 My work spans architecture, implementation, testing, deployment, and support. The focus is the complete workflow: the interface people use, the data it depends on, the actions it takes, and what happens when something fails.
 
-> **Most of my development lives in [@epiphany-dynamics](https://github.com/epiphany-dynamics).** This profile connects you to that work. Client implementations stay private; the public repositories showcase tools, products, and reusable engineering patterns.
+> **Most of my development lives in [@epiphany-dynamics](https://github.com/epiphany-dynamics).** This profile connects you to that work. Private client implementations are not republished here; the public repositories showcase tools, products, and reusable engineering patterns.
 
 ## Selected engineering work
 
@@ -30,8 +30,8 @@ My work spans architecture, implementation, testing, deployment, and support. Th
 <p><strong>A desktop interface that doesn't own the agent's lifetime.</strong></p>
 <p>Early public macOS client for Prime Agent: split-pane chats, live worker attachment, project context, and an agents dashboard. Close the interface without terminating background agents; reopen and reattach.</p>
 <p><code>JavaScript</code> <code>Electron</code> <code>RPC</code></p>
-<p><sub>Engineering focus: process lifecycle, sandboxed rendering, narrow IPC, and smoke-test tooling.</sub></p>
-<p><a href="https://github.com/epiphany-dynamics/prime-desktop/blob/main/DAEMON-ATTACHMENT.md">Architecture</a> · <a href="https://github.com/epiphany-dynamics/prime-desktop/releases">Releases</a> · <a href="https://github.com/epiphany-dynamics/prime-desktop/blob/main/docs/KNOWN_LIMITS.md">Known limits</a></p>
+<p><sub>Engineering focus: process lifecycle, sandboxed rendering, narrow IPC, and smoke-test tooling. macOS downloads are currently unsigned.</sub></p>
+<p><a href="https://github.com/epiphany-dynamics/prime-desktop/blob/main/DAEMON-ATTACHMENT.md">Architecture</a> · <a href="https://github.com/epiphany-dynamics/prime-desktop#verify-without-api-keys">Verification</a> · <a href="https://github.com/epiphany-dynamics/prime-desktop/releases">Releases</a> · <a href="https://github.com/epiphany-dynamics/prime-desktop/blob/main/docs/KNOWN_LIMITS.md">Known limits</a></p>
 </td>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/epiphany-dynamics/resilient-data-source-kit">Resilient Data Source Kit</a></h3>
@@ -49,7 +49,7 @@ My work spans architecture, implementation, testing, deployment, and support. Th
 <p>A gamified learning application with seven modules, quizzes, progress tracking, XP, and rewards. Browser-local progress works without an account; optional sign-in supports cross-device synchronization.</p>
 <p><code>Next.js</code> <code>TypeScript</code> <code>MDX</code> <code>Firebase</code></p>
 <p><sub>Engineering focus: content-driven architecture, local-first progress, optional sync, and generated discovery files.</sub></p>
-<p><a href="https://epiphany.help">Explore the course →</a> · <a href="https://github.com/epiphany-dynamics/epiphany-learn#license">Code &amp; content licenses</a></p>
+<p><a href="https://epiphany.help">Explore the course</a> · <a href="https://github.com/epiphany-dynamics/epiphany-learn#how-it-works">Architecture</a> · <a href="https://github.com/epiphany-dynamics/epiphany-learn#tests">Tests</a> · <a href="https://github.com/epiphany-dynamics/epiphany-learn#license">Licenses</a></p>
 </td>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/epiphany-dynamics/supabase-ledger-hardening-kit">Supabase Ledger Hardening Kit</a></h3>
