@@ -17,7 +17,7 @@
 
 I'm **Patrick Gibbs**, founder of **[Epiphany Dynamics](https://epiphanydynamics.ai)** in Nashville, Tennessee. I build AI agents, voice workflows, web applications, and the integrations around them for businesses that need the system to keep working after launch.
 
-My focus is the complete workflow: the interface people use, the data it depends on, the actions it takes, and what happens when something fails.
+My work spans architecture, implementation, testing, deployment, and support. The focus is the complete workflow: the interface people use, the data it depends on, the actions it takes, and what happens when something fails.
 
 > **Most of my development lives in [@epiphany-dynamics](https://github.com/epiphany-dynamics).** This profile connects you to that work. Client implementations stay private; the public repositories showcase tools, products, and reusable engineering patterns.
 
@@ -39,7 +39,7 @@ My focus is the complete workflow: the interface people use, the data it depends
 <p>Reference implementations for backoff with jitter, circuit breaking, block detection, and multi-signal entity matching. Confidence bands preserve uncertainty instead of turning missing data into false conclusions.</p>
 <p><code>TypeScript</code> <code>Node.js</code> <code>Testing</code></p>
 <p><sub>Engineering focus: injectable mock transport, deterministic tests, graceful failure, and human-review thresholds.</sub></p>
-<p><a href="https://github.com/epiphany-dynamics/resilient-data-source-kit#tests">Tests</a> · <a href="https://github.com/epiphany-dynamics/resilient-data-source-kit#known-limits">Known limits</a></p>
+<p><a href="https://github.com/epiphany-dynamics/resilient-data-source-kit#tests">Tests</a> · <a href="https://github.com/epiphany-dynamics/resilient-data-source-kit/blob/main/data-gap-handling.md">Design notes</a> · <a href="https://github.com/epiphany-dynamics/resilient-data-source-kit#known-limits">Known limits</a></p>
 </td>
 </tr>
 <tr>
@@ -49,7 +49,7 @@ My focus is the complete workflow: the interface people use, the data it depends
 <p>A gamified learning application with seven modules, quizzes, progress tracking, XP, and rewards. Browser-local progress works without an account; optional sign-in supports cross-device synchronization.</p>
 <p><code>Next.js</code> <code>TypeScript</code> <code>MDX</code> <code>Firebase</code></p>
 <p><sub>Engineering focus: content-driven architecture, local-first progress, optional sync, and generated discovery files.</sub></p>
-<p><a href="https://epiphany.help">Explore the course →</a></p>
+<p><a href="https://epiphany.help">Explore the course →</a> · <a href="https://github.com/epiphany-dynamics/epiphany-learn#license">Code &amp; content licenses</a></p>
 </td>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/epiphany-dynamics/supabase-ledger-hardening-kit">Supabase Ledger Hardening Kit</a></h3>
@@ -88,9 +88,9 @@ My focus is the complete workflow: the interface people use, the data it depends
 | Project | What to explore |
 | --- | --- |
 | [Call Speaker Diarization Kit](https://github.com/epiphany-dynamics/call-speaker-diarization-kit) | Python reference pipeline for identifying known speakers, handling ambiguous matches, and producing structured call records. Matching logic is runnable; embedding and transcription model calls are explicitly mocked. |
-| [Claude Skills Portfolio](https://github.com/epiphany-dynamics/claude-skills-portfolio) | Business-workflow skills for Claude Code. |
+| [Claude Skills Portfolio](https://github.com/epiphany-dynamics/claude-skills-portfolio) | Business-workflow skills for Claude Code, including a Python presentation generator with brand configuration, templates, and sample inputs. |
 | [What's Wrong With My Site](https://whatswrongwithmy.site) | A plain-English website diagnostic product. |
-| [HypeBench](https://hypebench.buzz) | An AI-model attention tracker across social and developer platforms. |
+| [HypeBench](https://hypebench.buzz) | An AI-model attention tracker across social and developer platforms, with a public scoring methodology. It measures conversation and momentum, not model quality. |
 | [Field Service Stack](https://github.com/epiphany-dynamics/fieldservicestack) | An Astro publishing system for contractor software reviews and guides, with schema-validated content, generated search, sitemaps, and AI-readable discovery files. |
 
 [Browse the Epiphany Dynamics organization →](https://github.com/epiphany-dynamics)
