@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-header.svg" alt="Patrick Gibbs — AI systems and full-stack software. Founder of Epiphany Dynamics. Built for the work after launch." width="100%" />
+  <img src="./assets/profile-banner.webp" alt="Patrick Gibbs — AI systems and full-stack software. Founder of Epiphany Dynamics. Built for the work after launch." width="100%" />
 </p>
 
 <p align="center">
