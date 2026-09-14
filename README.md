@@ -81,6 +81,15 @@ My work spans architecture, implementation, testing, deployment, and support. Th
 </table>
 
 <details>
+<summary><strong>See Prime Desktop in action</strong></summary>
+<br />
+<a href="https://github.com/epiphany-dynamics/prime-desktop/blob/main/docs/media/prime-desktop-demo.mp4">
+  <img src="https://raw.githubusercontent.com/epiphany-dynamics/prime-desktop/main/docs/media/prime-desktop-hero.png" alt="Prime Desktop's multi-pane agent interface. Open the linked screen recording to see the app in use." width="100%" />
+</a>
+<p><a href="https://github.com/epiphany-dynamics/prime-desktop/blob/main/docs/media/prime-desktop-demo.mp4">Watch the demo</a> · <a href="https://github.com/epiphany-dynamics/prime-desktop/blob/main/docs/INSTALL.md">Installation guide</a> · <a href="https://github.com/epiphany-dynamics/prime-desktop/blob/main/docs/KNOWN_LIMITS.md">Known limits</a></p>
+</details>
+
+<details>
 <summary><strong>More public work: voice pipelines, agent skills, and web products</strong></summary>
 
 <br />
