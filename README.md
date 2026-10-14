@@ -1,144 +1,119 @@
 <p align="center">
-  <img src="./assets/profile-banner.webp" alt="Patrick Gibbs — AI systems and full-stack software. Founder of Epiphany Dynamics. Built for the work after launch." width="100%" />
+  <img src="./assets/profile-banner.webp" alt="Patrick Gibbs. AI systems and full-stack software. Founder of Epiphany Dynamics." width="100%" />
 </p>
 
 <p align="center">
-  <strong>AI Systems Engineering &nbsp;·&nbsp; Full-Stack Development &nbsp;·&nbsp; Business Automation</strong>
+  <a href="https://patrickgibbs.dev"><strong>Portfolio</strong></a> &nbsp; / &nbsp;
+  <a href="https://github.com/epiphany-dynamics"><strong>Open source</strong></a> &nbsp; / &nbsp;
+  <a href="https://epiphanydynamics.ai"><strong>Epiphany Dynamics</strong></a>
 </p>
 
-<p align="center">
-  <a href="https://epiphanydynamics.ai"><strong>Epiphany Dynamics</strong></a> &nbsp;/&nbsp;
-  <a href="https://github.com/epiphany-dynamics"><strong>Public repositories</strong></a> &nbsp;/&nbsp;
-  <a href="https://book.epiphanydynamics.ai"><strong>Work with me</strong></a> &nbsp;/&nbsp;
-  <a href="mailto:patrick@epiphanydynamics.ai"><strong>Email</strong></a>
-</p>
+## I build agents, workflows, websites and apps.
 
----
+I'm Patrick Gibbs, founder of [Epiphany Dynamics](https://epiphanydynamics.ai). I build software for businesses, from the interface people use to the integrations that keep the work moving. I also repair systems that break when real customers use them.
 
-I'm **Patrick Gibbs**, founder of **[Epiphany Dynamics](https://epiphanydynamics.ai)** in Nashville, Tennessee. I build AI agents, voice workflows, web applications, and the integrations around them for businesses that need the system to keep working after launch.
+Most of my public code lives in [@epiphany-dynamics](https://github.com/epiphany-dynamics). Client implementations stay private; the projects here are public tools, products, and reference implementations.
 
-My work spans architecture, implementation, testing, deployment, and support. The focus is the complete workflow: the interface people use, the data it depends on, the actions it takes, and what happens when something fails.
-
-> **Most of my development lives in [@epiphany-dynamics](https://github.com/epiphany-dynamics).** This profile connects you to that work. Private client implementations are not republished here; the public repositories showcase tools, products, and reusable engineering patterns.
-
-## Selected engineering work
+## Featured builds
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<h3><a href="https://github.com/epiphany-dynamics/prime-desktop">Prime Desktop</a></h3>
-<p><strong>A desktop interface that doesn't own the agent's lifetime.</strong></p>
-<p>Early public macOS client for Prime Agent: split-pane chats, live worker attachment, project context, and an agents dashboard. Close the interface without terminating background agents; reopen and reattach.</p>
-<p><code>JavaScript</code> <code>Electron</code> <code>RPC</code></p>
-<p><sub>Engineering focus: process lifecycle, sandboxed rendering, narrow IPC, and smoke-test tooling. macOS downloads are currently unsigned.</sub></p>
-<p><a href="https://github.com/epiphany-dynamics/prime-desktop/blob/main/DAEMON-ATTACHMENT.md">Architecture</a> · <a href="https://github.com/epiphany-dynamics/prime-desktop#verify-without-api-keys">Verification</a> · <a href="https://github.com/epiphany-dynamics/prime-desktop/releases">Releases</a> · <a href="https://github.com/epiphany-dynamics/prime-desktop/blob/main/docs/KNOWN_LIMITS.md">Known limits</a></p>
+<p><code>NATIVE MAC APP</code></p>
+<h3><a href="https://github.com/epiphany-dynamics/port-cleanup">Port Cleanup</a></h3>
+<p>A native Mac app for reviewing stale listening ports. Local evidence and typed AI recommendations inform the decision; you confirm every stop.</p>
+<p><code>Swift</code> <code>SwiftUI</code> <code>macOS</code></p>
+<p><a href="https://github.com/epiphany-dynamics/port-cleanup#safety-model">Safety model</a> · <a href="https://github.com/epiphany-dynamics/port-cleanup/releases/latest">Download</a></p>
 </td>
 <td width="50%" valign="top">
-<h3><a href="https://github.com/epiphany-dynamics/resilient-data-source-kit">Resilient Data Source Kit</a></h3>
-<p><strong>External data is unreliable. The pipeline shouldn't pretend otherwise.</strong></p>
-<p>Reference implementations for backoff with jitter, circuit breaking, block detection, and multi-signal entity matching. Confidence bands preserve uncertainty instead of turning missing data into false conclusions.</p>
-<p><code>TypeScript</code> <code>Node.js</code> <code>Testing</code></p>
-<p><sub>Engineering focus: injectable mock transport, deterministic tests, graceful failure, and human-review thresholds.</sub></p>
-<p><a href="https://github.com/epiphany-dynamics/resilient-data-source-kit#tests">Tests</a> · <a href="https://github.com/epiphany-dynamics/resilient-data-source-kit/blob/main/data-gap-handling.md">Design notes</a> · <a href="https://github.com/epiphany-dynamics/resilient-data-source-kit#known-limits">Known limits</a></p>
+<p><code>EXPERIMENTAL INTEGRATION</code></p>
+<h3><a href="https://github.com/mcpeezy/hermes-cursor-sdk">Cursor SDK for Hermes</a></h3>
+<p>Connect Hermes to the official Cursor Agent SDK through a provider plugin. Hermes remains responsible for tool approvals and execution.</p>
+<p><code>Python</code> <code>JavaScript</code> <code>Cursor SDK</code></p>
+<p><strong>Subscription-oriented, not a promise of included inference.</strong> Cursor controls entitlement and billing. Offline tests don't establish live permission equivalence.</p>
+<p><a href="https://github.com/mcpeezy/hermes-cursor-sdk#install">Setup</a> · <a href="https://github.com/mcpeezy/hermes-cursor-sdk#verification-and-limits">Verification and limits</a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/epiphany-dynamics/epiphany-learn">Epiphany Learn</a></h3>
-<p><strong>AI education built as a usable product.</strong></p>
-<p>A gamified learning application with seven modules, quizzes, progress tracking, XP, and rewards. Browser-local progress works without an account; optional sign-in supports cross-device synchronization.</p>
-<p><code>Next.js</code> <code>TypeScript</code> <code>MDX</code> <code>Firebase</code></p>
-<p><sub>Engineering focus: content-driven architecture, local-first progress, optional sync, and generated discovery files.</sub></p>
-<p><a href="https://epiphany.help">Explore the course</a> · <a href="https://github.com/epiphany-dynamics/epiphany-learn#how-it-works">Architecture</a> · <a href="https://github.com/epiphany-dynamics/epiphany-learn#tests">Tests</a> · <a href="https://github.com/epiphany-dynamics/epiphany-learn#license">Licenses</a></p>
+<p>AI lessons with quizzes, progress tracking, and rewards. Browser-local progress works without an account; optional sign-in supports cross-device sync.</p>
+<p><code>Next.js</code> <code>TypeScript</code> <code>Firebase</code></p>
+<p><a href="https://epiphany.help">Try the course</a> · <a href="https://github.com/epiphany-dynamics/epiphany-learn">Source</a></p>
 </td>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/epiphany-dynamics/supabase-ledger-hardening-kit">Supabase Ledger Hardening Kit</a></h3>
-<p><strong>Correct balances need more than a happy-path test.</strong></p>
-<p>Naive versus row-locked balance operations, row-level-security probes, and concurrency/load-test harnesses. A focused reference for investigating double-spends and access-control gaps.</p>
-<p><code>PostgreSQL</code> <code>Supabase</code> <code>Node.js</code> <code>k6</code></p>
-<p><sub>Engineering focus: data invariants and overlapping writes. Database-backed verification requires a configured test environment.</sub></p>
+<p>Reference patterns for row-locked balances, access-control checks, and concurrent writes. Database-backed verification needs a configured test environment.</p>
+<p><code>PostgreSQL</code> <code>Supabase</code> <code>k6</code></p>
 <p><a href="https://github.com/epiphany-dynamics/supabase-ledger-hardening-kit#quick-start">Run the examples</a> · <a href="https://github.com/epiphany-dynamics/supabase-ledger-hardening-kit#known-limits">Known limits</a></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/epiphany-dynamics/nocode-email-fallback-kit">Email Delivery Fallback Kit</a></h3>
-<p><strong>“The form submitted” isn't proof the notification arrived.</strong></p>
-<p>A webhook-based reference implementation for validating form payloads, sending through a transactional provider, and tracking delivery events. Includes normalization, sanitization, and failure-path tests.</p>
-<p><code>Node.js</code> <code>Webhooks</code> <code>Resend</code></p>
-<p><sub>Engineering focus: observable delivery, explicit errors, and an audit trail beyond the platform's success message.</sub></p>
-<p><a href="https://github.com/epiphany-dynamics/nocode-email-fallback-kit/blob/main/DIAGNOSIS-CHECKLIST.md">Diagnosis checklist</a> · <a href="https://github.com/epiphany-dynamics/nocode-email-fallback-kit#tests">Tests</a></p>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/epiphany-dynamics/clawd-discord-relay">Claude Discord Relay</a></h3>
-<p><strong>Multiple agents, persistent context, one familiar interface.</strong></p>
-<p>A Discord-to-Claude Code relay with per-channel routing, persistent sessions, semantic memory, and direct, dispatched, or broadcast modes. Memory retrieval supports a Mem0-to-Qdrant fallback.</p>
-<p><code>TypeScript</code> <code>Bun</code> <code>discord.js</code> <code>Qdrant</code></p>
-<p><sub>Engineering focus: agent orchestration, session continuity, memory retrieval, and operator stop controls.</sub></p>
-<p><a href="https://github.com/epiphany-dynamics/clawd-discord-relay#architecture">Architecture</a> · <a href="https://github.com/epiphany-dynamics/clawd-discord-relay#setup">Setup</a></p>
 </td>
 </tr>
 </table>
 
-<details>
-<summary><strong>See Prime Desktop in action</strong></summary>
-<br />
-<a href="https://github.com/epiphany-dynamics/prime-desktop/blob/main/docs/media/prime-desktop-demo.mp4">
-  <img src="https://raw.githubusercontent.com/epiphany-dynamics/prime-desktop/main/docs/media/prime-desktop-hero.png" alt="Prime Desktop's multi-pane agent interface. Open the linked screen recording to see the app in use." width="100%" />
-</a>
-<p><a href="https://github.com/epiphany-dynamics/prime-desktop/blob/main/docs/media/prime-desktop-demo.mp4">Watch the demo</a> · <a href="https://github.com/epiphany-dynamics/prime-desktop/blob/main/docs/INSTALL.md">Installation guide</a> · <a href="https://github.com/epiphany-dynamics/prime-desktop/blob/main/docs/KNOWN_LIMITS.md">Known limits</a></p>
-</details>
+## Choose your route
 
-<details>
-<summary><strong>More public work: voice pipelines, agent skills, and web products</strong></summary>
-
-<br />
-
-| Project | What to explore |
+| I want to... | Start here |
 | --- | --- |
-| [Call Speaker Diarization Kit](https://github.com/epiphany-dynamics/call-speaker-diarization-kit) | Python reference pipeline for identifying known speakers, handling ambiguous matches, and producing structured call records. Matching logic is runnable; embedding and transcription model calls are explicitly mocked. |
-| [Claude Skills Portfolio](https://github.com/epiphany-dynamics/claude-skills-portfolio) | Business-workflow skills for Claude Code, including a Python presentation generator with brand configuration, templates, and sample inputs. |
-| [What's Wrong With My Site](https://whatswrongwithmy.site) | A plain-English website diagnostic product. |
-| [HypeBench](https://hypebench.buzz) | An AI-model attention tracker across social and developer platforms, with a public scoring methodology. It measures conversation and momentum, not model quality. |
-| [Field Service Stack](https://github.com/epiphany-dynamics/fieldservicestack) | An Astro publishing system for contractor software reviews and guides, with schema-validated content, generated search, sitemaps, and AI-readable discovery files. |
+| Connect Hermes to Cursor | [Cursor SDK provider](https://github.com/mcpeezy/hermes-cursor-sdk) |
+| Inspect ports on my Mac | [Port Cleanup](https://github.com/epiphany-dynamics/port-cleanup) |
+| See client work | [Patrick's portfolio](https://patrickgibbs.dev) |
+| Learn the AI basics | [Epiphany Learn](https://epiphany.help) |
 
-[Browse the Epiphany Dynamics organization →](https://github.com/epiphany-dynamics)
+<details>
+<summary><strong>Open the systems lab: where does the human stay in control?</strong></summary>
+
+These diagrams describe the intended boundaries, not a certification of safety.
+
+```mermaid
+flowchart TD
+  subgraph PORT[Port Cleanup]
+    A[Local process evidence] --> B[Typed AI recommendation]
+    B --> C[Human confirmation]
+    C --> D[Recheck before graceful stop]
+  end
+  subgraph CURSOR[Cursor SDK for Hermes]
+    E[Hermes request] --> F[Cursor SDK adapter]
+    F --> G[Tool request returned to Hermes]
+    G --> H[Hermes approval and execution]
+  end
+```
+
+Port Cleanup never stops a process automatically. The Cursor adapter is experimental; its offline tests don't prove live billing or permission equivalence. Read each repository's limits before use.
 
 </details>
 
-## How I approach engineering
+<details>
+<summary><strong>More open-source work</strong></summary>
 
-**Make success observable.** A successful tool call is not the same as a successful business outcome. Verify the calendar update, delivery event, stored record, or final balance.
+| Project | Focus |
+| --- | --- |
+| [Prime Desktop](https://github.com/epiphany-dynamics/prime-desktop) | Early public macOS client for Prime Agent with split-pane chats and live attachment. [Known limits](https://github.com/epiphany-dynamics/prime-desktop/blob/main/docs/KNOWN_LIMITS.md). |
+| [Resilient Data Source Kit](https://github.com/epiphany-dynamics/resilient-data-source-kit) | Backoff, circuit breaking, and confidence-scored entity matching. |
+| [Email Delivery Fallback Kit](https://github.com/epiphany-dynamics/nocode-email-fallback-kit) | Webhook validation, transactional email, and delivery-event tracking. |
+| [Call Speaker Diarization Kit](https://github.com/epiphany-dynamics/call-speaker-diarization-kit) | Known-speaker matching with human-review thresholds. Embedding and transcription calls are mocked. |
+| [Claude Skills Portfolio](https://github.com/epiphany-dynamics/claude-skills-portfolio) | Business-workflow skills and a configurable presentation generator. |
+| [Claude Discord Relay](https://github.com/epiphany-dynamics/clawd-discord-relay) | Per-channel agent routing and persistent sessions. |
+| [Field Service Stack](https://github.com/epiphany-dynamics/fieldservicestack) | An Astro publishing system for software reviews and guides. |
 
-**Design the failure path.** Retries need limits. Long-running workers need a lifecycle. Ambiguous matches need a review path. Missing data should stay unknown.
+</details>
 
-**Keep boundaries explicit.** Separate the interface from the agent process, enforce data-access rules, and make the difference between a reference implementation and a deployed system clear.
+<details>
+<summary><strong>Upstream contributions and reports</strong></summary>
 
-**Leave something maintainable.** Readable code, reproducible setup, focused tests, documented tradeoffs, and an honest account of known limits.
+Selected public submissions to [Hermes Agent](https://github.com/NousResearch/hermes-agent). Follow each link for its current status.
 
-## Working stack
+- [WhatsApp capability documentation](https://github.com/NousResearch/hermes-agent/pull/94256): a Baileys-versus-Cloud feature matrix.
+- [Technical-writing skill](https://github.com/NousResearch/hermes-agent/pull/93497): a checklist and tests for repository documentation.
+- [SQLite connection-lifecycle bug report](https://github.com/NousResearch/hermes-agent/issues/79742): a reproduction and proposed fix for accumulating read connections.
 
-**Languages:** TypeScript · JavaScript · Python · SQL  
-**Applications:** React / Next.js · Astro · Electron  
-**Data:** PostgreSQL / Supabase · Firebase · Qdrant  
-**Integration & runtime:** Node.js · Bun · REST APIs · Webhooks · Ollama
+</details>
 
-## Upstream work
+## What I pay attention to
 
-I also submit improvements and debugging reports to the tools I run. Selected public submissions to **[Hermes Agent](https://github.com/NousResearch/hermes-agent)**:
+The failure path matters as much as the happy path. I look for bounded retries, explicit access rules, useful tests, and a way to verify the final result. A delivery event, stored record, or correct balance tells you more than a success message.
 
-- **[WhatsApp capability documentation](https://github.com/NousResearch/hermes-agent/pull/94256)** — a Baileys-versus-Cloud feature matrix grounded in implemented adapter behavior.
-- **[Technical-writing skill](https://github.com/NousResearch/hermes-agent/pull/93497)** — a reusable checklist and tests for repository documentation and pull-request writing.
-- **[SQLite connection-lifecycle bug report](https://github.com/NousResearch/hermes-agent/issues/79742)** — a reproduction and proposed fix for dead-thread read connections accumulating in a long-lived gateway.
-
-[View my Hermes Agent pull requests and their current status →](https://github.com/NousResearch/hermes-agent/pulls?q=is%3Apr+author%3Amcpeezy)
+**Working stack:** TypeScript, JavaScript, Python, SQL, Swift · React, Next.js, Astro, Electron · PostgreSQL, Supabase, Firebase · APIs and webhooks.
 
 ---
 
-### Let's build something that holds up in use.
-
-For AI agents, voice systems, workflow integrations, internal tools, or a build that needs rescuing:
-
-**[Epiphany Dynamics](https://epiphanydynamics.ai) · [Book a conversation](https://book.epiphanydynamics.ai) · [patrick@epiphanydynamics.ai](mailto:patrick@epiphanydynamics.ai)**
-
-[LinkedIn](https://www.linkedin.com/in/patrick-gibbs-839b7b237) · [X / @EpiphanyDynamic](https://x.com/EpiphanyDynamic)
+**Have a workflow or build in mind?** [See my work](https://patrickgibbs.dev) or [book a conversation](https://epiphanydynamics.ai/book).
